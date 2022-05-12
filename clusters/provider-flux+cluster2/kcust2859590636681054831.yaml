@@ -1,0 +1,15 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  creationTimestamp: null
+  name: kcust2859590636681054831
+  namespace: default
+spec:
+  interval: 5m0s
+  path: clusters/provider-flux+cluster2/context/2859590636681054831
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: "2859590636681054831"
+  targetNamespace: default
+status: {}
