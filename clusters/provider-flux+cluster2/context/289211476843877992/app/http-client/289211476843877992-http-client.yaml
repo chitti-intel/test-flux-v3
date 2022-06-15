@@ -1,1 +1,0 @@
-{"apiVersion":"k8splugin.io/v1alpha1","kind":"ResourceBundleState","metadata":{"creationTimestamp":null,"labels":{"emco/deployment-id":"289211476843877992-http-client"},"name":"289211476843877992-http-client","namespace":"default"},"spec":{"selector":{"matchLabels":{"emco/deployment-id":"289211476843877992-http-client"}}},"status":{"ready":false,"resourceCount":0}}
