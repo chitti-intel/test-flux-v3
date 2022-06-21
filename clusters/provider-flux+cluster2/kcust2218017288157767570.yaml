@@ -1,0 +1,15 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  creationTimestamp: null
+  name: kcust2218017288157767570
+  namespace: standard-lc-ns
+spec:
+  interval: 5m0s
+  path: clusters/provider-flux+cluster2/context/2218017288157767570
+  prune: true
+  serviceAccountName: lc2-sa
+  sourceRef:
+    kind: GitRepository
+    name: "2218017288157767570"
+status: {}
