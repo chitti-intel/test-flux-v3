@@ -1,1 +1,0 @@
-{"apiVersion":"k8splugin.io/v1alpha1","kind":"ResourceBundleState","metadata":{"creationTimestamp":null,"labels":{"emco/deployment-id":"2218017288157767570-collectd"},"name":"2218017288157767570-collectd","namespace":"standard-lc-ns"},"spec":{"selector":{"matchLabels":{"emco/deployment-id":"2218017288157767570-collectd"}}},"status":{"ready":false,"resourceCount":0}}
