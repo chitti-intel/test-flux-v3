@@ -1,0 +1,15 @@
+apiVersion: k8splugin.io/v1alpha1
+kind: ResourceBundleState
+metadata:
+  creationTimestamp: null
+  labels:
+    emco/deployment-id: 1355508110324412580-collectd
+  name: 1355508110324412580-collectd
+  namespace: standard-lc-ns
+spec:
+  selector:
+    matchLabels:
+      emco/deployment-id: 1355508110324412580-collectd
+status:
+  ready: false
+  resourceCount: 0
