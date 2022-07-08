@@ -1,0 +1,12 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  creationTimestamp: null
+  name: "1628484656834151364"
+  namespace: default
+spec:
+  interval: 30s
+  ref:
+    branch: main
+  url: https://github.com/chitti-intel/test-flux-v3
+status: {}
