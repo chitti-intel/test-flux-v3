@@ -1,0 +1,1 @@
+{"apiVersion":"k8splugin.io/v1alpha1","kind":"ResourceBundleState","metadata":{"creationTimestamp":null,"labels":{"emco/deployment-id":"5441109516007366791-operator"},"name":"5441109516007366791-operator","namespace":"default"},"spec":{"selector":{"matchLabels":{"emco/deployment-id":"5441109516007366791-operator"}}},"status":{"ready":false,"resourceCount":0}}
