@@ -1,0 +1,1 @@
+{"apiVersion":"v1","kind":"Service","metadata":{"labels":{"app":"etcd","emco/deployment-id":"2093070906384427577-operator"},"name":"etcd-cluster","namespace":"default"},"spec":{"ports":[{"port":2379,"protocol":"TCP"}],"selector":{"app":"etcd"},"type":"ClusterIP"}}
